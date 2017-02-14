@@ -20,9 +20,10 @@ img.responsive-img,video.responsive-video{max-width:100%;height:auto}
 strong{font-weight:700} small{font-size:75%}
 button.btn-floating{border:none}
 @media only screen and (min-width:0){html{font-size:16px}}
-@media only screen and (max-width: 500px){.btn-large.susi{font-size:50%;height:36px;line-height:36px;} .btn-large.kuusi{font-size:60%;height:46px;line-height:26px;}}
 @media only screen and (min-width:992px){html{font-size:16.5px}}
 @media only screen and (min-width:1200px){html{font-size:17px}}
+@media only screen and (max-width:500px){.btn-large.susi{font-size:50%;height:36px;line-height:36px;}  .btn-large.kuusi{font-size:60%; height:46px; line-height:46px;} .btn.menu{font-size:70%; height:56px; line-height:56px;} .btn.menu.light-kuusi{line-height:56px;}}
+@media only screen and (max-width:365px) {.btn-large.susi{font-size:50%;height:36px;line-height:36px;}  .btn-large.kuusi{font-size:60%; height:46px; line-height:26px;} .btn.menu{font-size:70%; height:56px; line-height:56px;} .btn.menu.light-kuusi{line-height:26px;}}
 .kuusi{background-color:#87c36a!important} .susi{background-color:#ab5757!important} .light-kuusi{background-color:#2e8b57!important}
 .btn,a{text-decoration:none;-webkit-tap-highlight-color:transparent}
 .clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0} .clearfix{clear:both}
@@ -104,9 +105,10 @@ button.btn-floating{border:none}
 .mail-closebtn {text-decoration:none; float:right; font-size:170%; font-weight:bold; color:inherit} .mail-closebtn:hover, .mail-closebtn:focus{color:red!important; text-decoration:none; cursor:pointer; font-weight:bold;}
 .call {z-index:3; display:none; padding-top:120px; position:fixed; left:0; top:0; width:100%; height:100%; overflow:auto; background-color:rgb(0,0,0); background-color:rgba(0,0,0,0.4)}
 .call-content {margin:auto; background-color:#fff; position:relative; padding:0; outline:0; width:600px}
+@media (min-width:993px) {.call-content{width:900px}}
 @media (max-width:600px) {.call-content{margin:0 10px; width:auto!important} .call{padding-top:30px}}
 @media (max-width:768px) {.call-content{width:500px} .call{padding-top:50px}}
-@media (min-width:993px) {.call-content{width:900px}}
+@media (max-width:600px) {.call-content{margin:0 10px; width:auto!important} .call{padding-top:30px}}
 .square {box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)!important}
 .animate-top {position:relative; -webkit-animation:animatetop 0.7s; animation:animatetop 1s;}
 .dockr {padding:1em; background-color:#d4f0fe;} .dockr:after {content:""; display:table; clear:both}
