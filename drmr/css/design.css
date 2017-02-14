@@ -1,0 +1,17 @@
+﻿h1 {font-family:verdana; font-size:350%; text-align:center;} h2 {text-indent:50px;}
+body {background-color:#111111; color:#221925;} p {text-indent:25px;}
+ul {font-size:230%; list-style-type:none; margin:0; padding:0; overflow:hidden;} li {float:left;} li a {border-radius:21px; display:block; color:white; text-align:center; padding:6px 20px; background-color:#111111; text-decoration:none; transition:all 0.5s; border: 2px solid white} li a:hover {background-color:#444444;} li.dropdown {display:inline-block;}
+li a span {cursor:pointer; display:inline-block; position:relative; transition:0.5s;} li a span:after {content:'\00bb'; position:absolute; opacity:0; top:0; right:-20px; transition:0.5s;} li a:hover span {padding-right:25px;} li a:hover span:after {opacity:1; right:0;}
+#blue {background-color:powderblue; padding:1px 33px; border:3px solid #ccc; border-radius:15px;
+background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9ImcxNTIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIxMDAlIiB4Mj0iMTAwJSIgeTI9IjAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI0QxQTA4NSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI0MyQ0NEMSIgb2Zmc2V0PSIwLjUiLz48c3RvcCBzdG9wLWNvbG9yPSIjNjU5QkEyIiBvZmZzZXQ9IjEiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnMTUyKSIgLz4KPC9zdmc+);}
+#list {padding:100px;} #first {font-size:120%; font-family:verdana;}
+.tweak-opacity {-webkit-animation:opac 0.8s; animation:opac 1.5s} .tweak-top {position:relative; -webkit-animation:animatetop 1s; animation:animatetop 1s;}
+.dropdown-content {display:none; position:absolute; min-width:160px; box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2); z-index:1;} .dropdown-content a {padding:12px 16px; text-align:left;} .dropdown-content a:hover {background-color: #83b7de} .dropdown:hover .dropdown-content {display:block;} .dropdown:hover .btn {background-color:#ab4949;}
+/*Thanks to W3CSS tutorials and design-dreams by Jan Egil and Borge Refsnes*/
+@-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
+@keyframes opac{from{opacity:0} to{opacity:1}}
+@-webkit-keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+@media only screen and (max-width:500px){li a{font-size:50%; padding: 6px 15px;}}
+@media only screen and (max-width:500px){h1{font-size:100%;}}
+@-moz-document url-prefix() {#blue {background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8bGluZWFyR3JhZGllbnQgaWQ9ImcxNTIiIHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgo8c3RvcCBzdG9wLWNvbG9yPSIjRDFBMDg1IiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjQzJDQ0QxIiBvZmZzZXQ9IjAuNSIvPjxzdG9wIHN0b3AtY29sb3I9IiM2NTlCQTIiIG9mZnNldD0iMSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2cxNTIpIiAvPgo8L3N2Zz4=);}}
