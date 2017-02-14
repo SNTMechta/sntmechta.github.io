@@ -22,8 +22,8 @@ button.btn-floating{border:none}
 @media only screen and (min-width:0){html{font-size:16px}}
 @media only screen and (min-width:992px){html{font-size:16.5px}}
 @media only screen and (min-width:1200px){html{font-size:17px}}
-@media only screen and (max-width:500px){.btn-large.susi{font-size:50%;height:36px;line-height:36px;}  .btn-large.kuusi{font-size:60%; height:46px; line-height:46px;} .btn.menu{font-size:70%; height:56px; line-height:56px;} .btn.menu.light-kuusi{line-height:56px;}}
-@media only screen and (max-width:365px) {.btn-large.susi{font-size:50%;height:36px;line-height:36px;}  .btn-large.kuusi{font-size:60%; height:46px; line-height:26px;} .btn.menu{font-size:70%; height:56px; line-height:56px;} .btn.menu.light-kuusi{line-height:26px;}}
+@media only screen and (max-width:500px){.btn-large.susi{font-size:50%;height:36px;line-height:36px;} .btn-large.kuusi{font-size:60%; height:46px; line-height:46px;} .btn.menu{font-size:70%; height:56px; line-height:56px;} .btn.menu.light-kuusi{line-height:56px;}}
+@media only screen and (max-width:365px) {.btn-large.susi{font-size:50%;height:36px;line-height:36px;} .btn-large.kuusi{font-size:60%; height:46px; line-height:26px;} .btn.menu{font-size:70%; height:56px; line-height:56px;} .btn.menu.light-kuusi{line-height:26px;}}
 .kuusi{background-color:#87c36a!important} .susi{background-color:#ab5757!important} .light-kuusi{background-color:#2e8b57!important}
 .btn,a{text-decoration:none;-webkit-tap-highlight-color:transparent}
 .clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0} .clearfix{clear:both}
