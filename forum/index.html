@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+ <title>Форум создаётся...</title>
+ <meta charset="utf-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../drmr/css/default.css" />
+</head>
+<body>
+    <div id="sceneContainer" class="">
+        <canvas id="backgroundGradient"></canvas>
+        <div id="postcardContainer">
+            <div id="postcard">
+            </div>
+            <p id="hint">
+                Подсказка: нажми мышкой и расчисти доску от снега...</p>
+            <div id="snowmanContainer">
+                <svg id="snowHeap" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 236.738,0 C 140.386,0 52.918999,45.792 -1.2757446e-6,72.709 V 86.191 H 470.131 V 71.047 C 416.947,45.069 333.09,0 236.738,0 z" id="whiteSnow" style="fill:#ffffff;"></path>
+                    <path d="M 227.974,0.145 C 359.669,4.021 440.228,85.278 447.427,86.192 H 470.13 V 71.048 C 416.946,45.069 333.09,0 236.737,0 c -2.937,0 -5.85,0.048 -8.763,0.145 z" id="whiteSnowShadow" style="fill:#eff7f6;"></path>
+                </svg>
+                <img id="snowman" src="../drmr/res/Snowman.png" />
+            </div>
+            <canvas id="snowflakesCanvas"></canvas>
+        </div>
+        <div id="systemInformation" class="si">
+            <label for="siSnowflakes">Снежинок:</label>
+            <select id="siSnowflakes">
+                <option value="100">100</option>
+                <option value="250" selected="selected">250</option>
+                <option value="500">500</option>
+                <option value="1000">1000</option>
+                <option value="2000">2000</option>
+                <option value="4000">4000</option>
+            </select>
+            <span id="siSnowflakesCount"></span>
+            <br />
+            <span id="siResolution"></span>
+            <audio id="music" src="../drmr/res/LetItSnowShort.mp3" loop="loop" autoplay="autoplay"></audio>
+            <button class="btn" id="toggleSoundButton" aria-controls="music">Приостановить звук!</button>
+            <button disabled="disabled">ФОРУМ СОЗДАЁТСЯ</button>
+        </div>
+    </div>
+    <script src="../drmr/js/classes.js"></script>
+    <script src="../drmr/js/touch.js"></script>
+    <script src="../drmr/js/animation.js"></script>
+    <script src="../drmr/js/gfx.js"></script>
+    <script src="../drmr/js/postcard.js"></script>
+    <script src="../drmr/js/snowflakes.js"></script>
+    <script src="../drmr/js/systemInformation.js"></script>
+    <script src="../drmr/js/gradient.js"></script>
+    <script src="../drmr/js/default.js"></script>
+</body>
+</html>
