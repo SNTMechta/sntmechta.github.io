@@ -1,4 +1,4 @@
-html {overflow:hidden; content-zooming:none; -ms-content-zooming:none; -webkit-content-zooming:none; -moz-content-zooming:none; -ms-text-size-adjust:auto; user-scalable: none;}
+html {overflow:hidden; content-zooming:none; -ms-content-zooming:none; -webkit-content-zooming:none; -moz-content-zooming:none; -ms-text-size-adjust:auto; -webkit-text-size-adjust:auto; -moz-text-size-adjust:auto; text-size-adjust:auto; user-scalable: none;}
 body {font-family: Verdana; user-select: none; -ms-user-select: none; -webkit-user-select: none; -moz-user-select: none;}
 select {font-family: "Verdana";}
 body * {transition-property:*; transition-duration:1s; -ms-transition-property:*; -ms-transition-duration:1s; -webkit-transition-property:*; -webkit-transition-duration:1s; -moz-transition-property:*; -moz-transition-duration:1s; font-size:12px;}
