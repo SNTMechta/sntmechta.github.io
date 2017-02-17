@@ -1,4 +1,4 @@
-﻿// https://github.com/MicrosoftEdge/Demos/tree/master/letitsnow
+// https://github.com/MicrosoftEdge/Demos/tree/master/letitsnow
 (function () {
  "use strict";
  var defaultMusicTrack = "../drmr/res/LetItSnowShort.mp3";
