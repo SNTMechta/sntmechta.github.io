@@ -1,13 +1,11 @@
 ﻿// https://github.com/MicrosoftEdge/Demos/tree/master/letitsnow
 (function () {
  "use strict";
-
  var defaultMusicTrack = "../drmr/res/LetItSnowShort.mp3";
  var defaultSnowmanImage = "../drmr/res/Snowman.png";
  var musicIsPlaying = true;
  var togglePlaybackCode = 112;
  var toggleSoundButton = document.getElementById("toggleSoundButton");
-
  var snowflakesCanvas = document.getElementById("snowflakesCanvas");
  var snowflakesContext = document.getElementById("snowflakesCanvas").getContext("2d");
  var backgroundGradientCanvas = document.getElementById("backgroundGradient");
@@ -25,19 +23,16 @@
   backgroundGradientCanvas.width = window.innerWidth + 400;
   backgroundGradientCanvas.height = window.innerHeight + 400;
  }
-
  function pauseMusic() {
    music.pause();
    musicIsPlaying = false;
    toggleSoundButton.innerHTML = "Включить звук!";
  }
-
  function playMusic() {
    music.play();
    musicIsPlaying = true;
    toggleSoundButton.innerHTML = "Приостановить звук!";
  }
-
  function toggleMusic() {
   musicIsPlaying ? pauseMusic() : playMusic();
  }
@@ -57,7 +52,6 @@
     }
    }
   }, true);
-
   SystemInformation.post(SystemInformation.getInformation());
   Snowflakes.generate(250);
   resizeCanvasElements();
@@ -70,5 +64,4 @@
   SystemInformation.post({ width: window.innerWidth, height: window.innerHeight });
   resizeCanvasElements();
  });
-
 })();
