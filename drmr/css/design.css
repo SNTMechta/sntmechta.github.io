@@ -15,4 +15,5 @@ background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53M
 @keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
 @media only screen and (max-width:500px){li a{font-size:30%; padding:6px 15px;} h1{font-size:100%;} #list{padding:85px 3px;} body{background-size:auto;}}
 @media only screen and (max-width:292px){#list{padding:90px 3px} #first,h2{font-size:100%;}}
+@media only screen and (max-height:400px){#list{padding:20px 10px;}}
 @-moz-document url-prefix() {#blue {background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8bGluZWFyR3JhZGllbnQgaWQ9ImcxNTIiIHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgo8c3RvcCBzdG9wLWNvbG9yPSIjRDFBMDg1IiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjQzJDQ0QxIiBvZmZzZXQ9IjAuNSIvPjxzdG9wIHN0b3AtY29sb3I9IiM2NTlCQTIiIG9mZnNldD0iMSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2cxNTIpIiAvPgo8L3N2Zz4=);}}
