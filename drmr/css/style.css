@@ -22,7 +22,7 @@ button.btn-floating{border:none}
 @media only screen and (min-width:0){html{font-size:16px}}
 @media only screen and (min-width:992px){html{font-size:16.5px}}
 @media only screen and (min-width:1200px){html{font-size:17px}}
-@media only screen and (max-width:500px) {.btn-large.susi{font-size:50%;height:36px;line-height:36px;} .btn-large.kuusi{font-size:60%; height:46px; line-height:46px;} .btn.menu{font-size:70%; height:56px; line-height:56px;} .btn.menu.light-kuusi{line-height:56px;}}
+@media only screen and (max-width:500px) {.btn-large.susi{font-size:50%;height:36px;line-height:36px;} .btn-large.kuusi{font-size:60%; height:46px; line-height:46px;} .btn.menu{font-size:70%; height:56px; line-height:56px;} .btn.menu.light-kuusi{line-height:56px;} .willbe{font-size:310%;}}
 @media only screen and (max-width:380px) {.btn-large.kuusi{line-height:26px;} .btn.menu.light-kuusi{line-height:29px;}}
 @media only screen and (max-width:307px) {.btn-large.kuusi{line-height:16px;} .btn.menu{height:36px;line-height:36px;} .btn.menu.light-kuusi{line-height:12px;} .btn.kuusi{font-size:70%;padding:3px;}}
 @media only screen and (max-width:291px) {.btn-large.kuusi{font-size:49%;line-height:17px;} .point-title{font-size:21px!important;line-height:30px!important;} .btn.menu.light-kuusi{width:110px;padding:6px;}}
