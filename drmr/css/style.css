@@ -11,7 +11,7 @@ h3{font-size:2.92rem;margin:1.46rem 0 1.168rem}
 h4{font-size:2.28rem;margin:1.14rem 0 .912rem}
 h5{font-size:1.64rem;margin:.82rem 0 .656rem}
 h6{font-size:1rem;margin:.5rem 0 .4rem}
-html{line-height:1.5;font-family:Times New Roman,sans-serif;color:rgba(0,0,0,.87)}
+html{line-height:1.5;font-family:'Times New Roman',sans-serif;color:rgba(0,0,0,.87)}
 a img {border:0;}
 a{background-color:transparent;color:#039be5} a:active,a:hover{outline:0}
 abbr[title]{border-bottom:1px dotted} pre,textarea{overflow:auto} code{font-family:monospace,monospace;font-size:1em}
@@ -23,10 +23,11 @@ button.btn-floating{border:none}
 @media only screen and (min-width:992px){html{font-size:16.5px}}
 @media only screen and (min-width:1200px){html{font-size:17px}}
 @media only screen and (max-width:500px) {.btn-large.susi{font-size:50%;height:36px;line-height:36px;} .btn-large.kuusi{font-size:60%; height:46px; line-height:46px;} .btn.menu{font-size:70%; height:56px; line-height:56px;} .btn.menu.light-kuusi{line-height:56px;} .willbe{font-size:310%;}}
-@media only screen and (max-width:380px) {.btn-large.kuusi{line-height:26px;} .btn.menu.light-kuusi{line-height:29px;} .where{font-size:150%;} #snowman{margin-top:30px!important;}}
+@media only screen and (max-width:380px) {.btn-large.kuusi{line-height:26px;} .btn.menu.light-kuusi{line-height:29px;} .where{font-size:150%;}}
 @media only screen and (max-width:307px) {.btn-large.kuusi{line-height:16px;} .btn.menu{height:36px;line-height:36px;} .btn.menu.light-kuusi{line-height:12px;} .btn.kuusi{font-size:70%;padding:3px;}}
 @media only screen and (max-width:291px) {.btn-large.kuusi{font-size:49%;line-height:17px;} .point-title{font-size:21px!important;line-height:30px!important;} .btn.menu.light-kuusi{width:110px;padding:6px;} .btn-large.susi.where{font-size:50%; height:46px; line-height:16px;} .snowman-btn{padding-left:30px!important;}}
 @media only screen and (max-width:243px) {.btn-large.kuusi{line-height:11px;} .point-title{font-size:19px!important;} .where{font-size:130%;} .snowman-btn{padding-left:20px!important;} #snowman{padding-right:40px!important; padding-left:40px!important;}}
+@media only screen and (max-height:380px) {#snowman{margin-top:30px!important;}}
 .kuusi{background-color:#87c36a!important} .susi{background-color:#ab5757!important} .light-kuusi{background-color:#2e8b57!important}
 .btn,a{text-decoration:none;-webkit-tap-highlight-color:transparent}
 .clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0} .clearfix{clear:both}
