@@ -84,6 +84,7 @@ button.btn-floating{border:none}
 .btn-flat{box-shadow:none;color:#343434;cursor:not-allowed;-webkit-transition:background-color .2s;transition:background-color .2s; -moz-transition:background-color .2s; -o-transition:background-color .2s;}
 .btn-flat:hover{background-color:rgba(0,0,0,.1);box-shadow:none}
 .btn-flat.disabled{color:#b3b3b3;cursor:default}
+.btn.kuusi.right:after, .btn.disabled.kuusi.menu:after, .btn.kuusi.blog.menu:after {content:'\00bb';}
 .fixed-action-btn{position:fixed;right:23px;bottom:23px;padding-top:15px;margin-bottom:0;z-index:998}
 .fixed-action-btn.active ul{visibility:visible}
 .fixed-action-btn.horizontal{padding:0 0 0 15px}
