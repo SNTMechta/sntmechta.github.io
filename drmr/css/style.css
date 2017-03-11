@@ -21,7 +21,7 @@ button.btn-floating{border:none}
 label {color:dodgerblue; padding:42px; cursor:pointer; font-size:1250%; -webkit-transition:color 0.5s ease 0.5s; transition:color 0.5s ease 0.5s; -moz-transition:color 0.5s ease 0.5s; -o-transition:color 0.5s ease 0.5s;}
 input {cursor:pointer; height:0; opacity:0; width:0;}
 input:focus {outline: none;}
-input:checked {height:40px; opacity:1; position:fixed; right:20px; top:20px; z-index:2; -moz-appearance:none; -webkit-appearance:none; width:40px;}
+input:checked {height:40px; opacity:1; position:fixed; right:20px; top:20px; z-index:2; -moz-appearance:none; -webkit-appearance:none; appearance:none; width:40px;}
 input:checked::after, input:checked::before {border-top:1px solid #FFF; content:"";}
 input:checked + label {color:#fff; -webkit-transition:color 0.5s ease; transition:color 0.5s ease; -moz-transition:color 0.5s ease; -o-transition:color 0.5s ease;}
 input:checked ~ .modal {height:100%; width:100%; -webkit-transition:width 0.5s ease, height 0.5s ease 0.5s; transition:width 0.5s ease, height 0.5s ease 0.5s; -moz-transition:width 0.5s ease, height 0.5s ease 0.5s; -o-transition:width 0.5s ease, height 0.5s ease 0.5s;}
@@ -117,8 +117,8 @@ div.container {text-align:center; font-size:200%; font-family:Verdana,monospace;
 .btn.susi#snowman:hover {background-color:transparent!important; background-color:rgba(0,0,0,.1)!important; box-shadow:10px 10px 90px blue;}
 .responsive {padding:0 6px; width:28.99999%;}
 .main {padding-left:11.7%;}
-.modal {background:dodgerblue; height:10px; overflow:hidden; text-align:center; position:fixed; top:50%; left:50%; -webkit-transform:translate(-50%, -50%); transform:translate(-50%, -50%); -webkit-transition:width 0.5s ease 0.5s, height 0.5s ease; transition:width 0.5s ease 0.5s, -moz-transition:width 0.5s ease 0.5s, height 0.5s ease; -o-transition:width 0.5s ease 0.5s, height 0.5s ease; height 0.5s ease; width:0; z-index:1;}
-.innhold {color:transparent; font-size:2em; position:absolute; top:50%; padding:1rem; margin:0 auto; max-width:970px; -webkit-transform:translate3d(0, -50%, 0); transform:translate3d(0, -50%, 0); -webkit-transition:color 0.5s ease; transition:color 0.5s ease; -moz-transition:color 0.5s ease; -o-transition:color 0.5s ease; width:100%;}
+.modal {background:dodgerblue; height:10px; overflow:hidden; text-align:center; position:fixed; top:50%; left:50%; -webkit-transform:translate(-50%, -50%); transform:translate(-50%, -50%); -ms-transform:translate(-50%, -50%); -webkit-transition:width 0.5s ease 0.5s, height 0.5s ease; transition:width 0.5s ease 0.5s, height 0.5s ease; -moz-transition:width 0.5s ease 0.5s, height 0.5s ease; -o-transition:width 0.5s ease 0.5s, height 0.5s ease; width:0; z-index:1;}
+.innhold {color:transparent; font-size:2em; position:absolute; top:50%; padding:1rem; margin:0 auto; max-width:970px; -webkit-transform:translate3d(0, -50%, 0); transform:translate3d(0, -50%, 0); -ms-transform:translate3d(0, -50%, 0); -webkit-transition:color 0.5s ease; transition:color 0.5s ease; -moz-transition:color 0.5s ease; -o-transition:color 0.5s ease; width:100%;}
 #snowman {margin-top:110px; padding-right:50px; padding-left:50px;}
 #header {font-family:'comic sans ms', monospace; text-align:center; position:relative; -webkit-animation:animatetop 0.4s; animation:animatetop 0.4;}
 #train {text-decoration:underline;}
