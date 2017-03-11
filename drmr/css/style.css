@@ -132,3 +132,4 @@ div.container {text-align:center; font-size:200%; font-family:Verdana,monospace;
 @keyframes opac{from{opacity:0} to{opacity:1}}
 @-webkit-keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
 @keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+@-moz-document url-prefix() {label {font-size:655%}}
