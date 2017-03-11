@@ -104,7 +104,13 @@ button.btn-floating{border:none}
 .snowman {height:650px; max-width:100%;}
 .snowman-btn {padding-top:30%; padding-left:50px;}
 .btn.susi#snowman:hover {background-color:transparent!important; background-color:rgba(0,0,0,.1)!important; box-shadow:10px 10px 90px blue;}
+.responsive {padding:0 6px; width:28.99999%;}
+.main {padding-left:11.7%;}
+.modal {background:dodgerblue; height:10px; overflow:hidden; text-align:center; position:fixed; top:50%; left:50%; -webkit-transform:translate(-50%, -50%); transform:translate(-50%, -50%); -webkit-transition:width 0.5s ease 0.5s, height 0.5s ease; transition:width 0.5s ease 0.5s, height 0.5s ease; width:0; z-index:1;}
+.content {color:transparent; font-size:2em; position:absolute; top:50%;  -webkit-transform:translate3d(0, -50%, 0); transform:translate3d(0, -50%, 0); -webkit-transition:color 0.5s ease; transition:color 0.5s ease; width:100%;}
 #snowman {margin-top:110px; padding-right:50px; padding-left:50px;}
+#header {font-family:'comic sans ms', monospace; text-align:center; position:relative; -webkit-animation:animatetop 0.4s; animation:animatetop 0.4;}
+#train {text-decoration:underline;}
 @media (min-width:993px) {.call-content{width:900px}}
 @media (max-width:768px) {.call-content{width:500px} .call{padding-top:50px} #mailr{font-size:70%} h3{font-size:140%}}
 @media (max-width:600px) {.call-content{margin:0 10px; width:auto!important} .call{padding-top:30px} #mailr{font-size:65%}}
