@@ -1,10 +1,9 @@
 /* Thanks for the features and abilities of design */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%;box-sizing:border-box;-webkit-box-sizing:border-box;line-height:1.5;font-family:'Times New Roman',sans-serif;color:rgba(0,0,0,.87)}
 body{background-color:#21252f;color:#627175;margin:0}
-h1{text-transform:uppercase;color:#fff;text-shadow:0 0 9px #c7dbc3}
+h1{text-transform:uppercase;color:#fff;text-shadow:0 0 9px #c7dbc3;font-size:4rem;margin:2.1rem 0 0.88rem}
 h1,h2,h3,html{font-weight:400}
 h1,h2,h3{line-height:110%}
-h1{font-size:4rem;margin:2.1rem 0 0.88rem}
 h2{font-size:3.56rem;margin:1.78rem 0 1.424rem}
 h3{font-size:2.92rem;margin:1.46rem 0 1.218rem}
 a img {border:0;}
@@ -13,10 +12,9 @@ abbr[title]{border-bottom:1px dotted} pre,textarea{overflow:auto} code{font-fami
 blockquote{margin:20px 0;padding-left:1.5rem;border-left:5px solid #ee6e73}
 img.responsive-img,video.responsive-video{max-width:100%;height:auto}
 strong{font-weight:700} small{font-size:75%}
-button.btn-floating{border:none}
 label {color:dodgerblue; padding:42px; cursor:pointer; font-size:1250%; -webkit-transition:color 0.5s ease 0.5s; transition:color 0.5s ease 0.5s; -moz-transition:color 0.5s ease 0.5s; -o-transition:color 0.5s ease 0.5s;}
 input {cursor:pointer; height:0; opacity:0; width:0;}
-input:focus {outline: none;}
+input:focus {outline:none;}
 input:checked {height:40px; opacity:1; position:fixed; right:20px; top:20px; z-index:2; -moz-appearance:none; -webkit-appearance:none; appearance:none; width:40px;}
 input:checked::after, input:checked::before {border-top:1px solid #FFF; content:"";}
 input:checked + label {color:#fff; -webkit-transition:color 0.5s ease; transition:color 0.5s ease; -moz-transition:color 0.5s ease; -o-transition:color 0.5s ease;}
@@ -40,16 +38,14 @@ div.container {text-align:center; font-size:200%; font-family:Verdana,monospace;
 .content{padding:2rem;margin:0 auto;max-width:960px}
 .words-point:last-child{margin-bottom:0rem} .words-point{background-color:#fff} .words-point .point-content .label,.words-point .point-content {vertical-align:middle}
 *,:after,:before{box-sizing:inherit;-webkit-box-sizing:inherit;}
-.btn,.btn-floating,.btn-large,.point{box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)}
-.btn-floating:hover,.btn-large:hover,.btn:hover,.z-depth-1-half{box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15)}
-.btn,.btn-floating i,.btn-large,.center,.center-align{text-align:center}
+.btn-large:hover,.btn:hover,.z-depth-1-half{box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15)}
+.btn,.btn-large,.center,.center-align{text-align:center}
 .left-align{text-align:left} .right-align{text-align:right}
 .left{float:left!important} .right{float:right!important}
 .center-block{display:block;margin-left:auto;margin-right:auto}
 .point,.point.large,.point.medium,.point.small{position:relative}
 .point{margin:.5rem 0 1rem;background-color:#fff;border-radius:2px}
 .point .point-title{font-weight:300; font-size:24px;}
-.point .point-title.active{cursor:pointer}
 .point{-webkit-transition:box-shadow .25s;transition:box-shadow .25s;-o-transition:box-shadow .25s;-moz-transition:box-shadow .25s;}
 .point.large .point-image,.point.medium .point-image,.point.small .point-image{max-height:60%;overflow:hidden}
 .point.large .point-image+.point-content,.point.medium .point-image+.point-content,.point.small .point-image+.point-content{max-height:40%}
@@ -57,14 +53,7 @@ div.container {text-align:center; font-size:200%; font-family:Verdana,monospace;
 .point.large .point-action,.point.medium .point-action,.point.small .point-action{position:absolute;bottom:0;left:0;right:0}
 .point.small{height:300px}
 .point.medium{height:400px}
-.point.large{height:500px}.point.horizontal{display:flex}
-.point.horizontal .point-stacked{display:-webkit-box;display:-ms-flexbox}
-.point.horizontal.large .point-image,.point.horizontal.medium .point-image,.point.horizontal.small .point-image{height:100%;max-height:none;overflow:visible}
-.point.horizontal.large .point-image img,.point.horizontal.medium .point-image img,.point.horizontal.small .point-image img{height:100%}
-.point.horizontal .point-image{max-width:50%}
-.point.horizontal .point-image img{max-width:100%;width:auto}
-.point.horizontal .point-stacked{display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex:1;-ms-flex:1;flex:1;position:relative}
-.point.horizontal .point-stacked .point-content{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}
+.point.large{height:500px}
 .point.sticky-action .point-action{z-index:2}
 .point.sticky-action .point-reveal{z-index:1;padding-bottom:64px}
 .point .point-image{position:relative}
@@ -83,7 +72,7 @@ div.container {text-align:center; font-size:200%; font-family:Verdana,monospace;
 .btn-large.disabled,.btn-large:disabled,.btn-large[disabled],.btn.disabled,.btn:disabled,.btn[disabled],.disabled.btn-large,[disabled].btn-large{background-color:#DFDFDF!important;box-shadow:none;color:#9F9F9F!important;cursor:default}
 .btn-large.disabled *,.btn-large:disabled *,.btn-large[disabled] *,.btn.disabled *,.btn:disabled *,.btn[disabled] *,.disabled.btn-large *,[disabled].btn-large *{pointer-events:none}
 .btn-large.disabled:hover,.btn-large:disabled:hover,.btn-large[disabled]:hover,.btn.disabled:hover,.btn:disabled:hover,.btn[disabled]:hover,.disabled.btn-large:hover,[disabled].btn-large:hover{background-color:#DFDFDF!important;color:#9F9F9F!important}.btn i,.btn-flat i,.btn-floating i,.btn-large i{font-size:1.3rem;line-height:inherit}
-.btn-large i{font-size:1.6rem}
+.
 .btn,.btn-large{color:#fff;background-color:#26a69a;letter-spacing:.5px;-webkit-transition:.2s ease-out;transition:.2s ease-out;-o-transition:.2s ease-out;-moz-transition:.2s ease-out;cursor:pointer}
 .btn-large:hover,.btn:hover{background-color:#2bbbad}
 .btn-flat:active,.btn-flat:focus{background-color:transparent}
