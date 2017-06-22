@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
 <head>
  <title>Форум создаётся...</title>
@@ -6,12 +6,54 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
  <link rel="icon" type="image/png" href="../drmr/res/dreamr.png"/>
  <link rel="stylesheet" href="../drmr/css/style.css"/>
+
+<style>
+/* based on CSS-loader design: https://codepen.io/jbutler483/pen/KwGoJQ ; Thanks for the abilities-view! */
+.firkantr {position:relative; height:19px; width:19px; display:inline-block; background:#EF767A; transition:all 0.8s; animation: rot 5s linear infinite;}
+.firkantr:nth-child(1) {animation-delay:3s;}
+.firkantr:nth-child(2) {animation-delay:1.5s; animation: rot 15s linear infinite;}
+.firkantr:nth-child(3) {animation-delay:2s;}
+.firkantr:nth-child(4) {animation-delay:0.2s;}
+.firkantr:nth-child(5) {animation-delay:4s;}
+.firkantr:nth-child(6) {animation-delay:2s; animation: rot 7s linear infinite;}
+.firkantr:nth-child(7) {animation-delay:0.4s;}
+.firkantr:nth-child(8) {animation-delay:1.5s; animation: rot 6s linear infinite;}
+.firkantr:nth-child(9) {animation-delay:25s; animation: rot 8s linear infinite;}
+@keyframes rot {0% {transform:none;} 20% {transform:rotateZ(-90deg) rotateY(180deg);} 40% {background:#D8B189;transform:none;} 60% {background:white;} 80% {background:#49BEAA;} 90% {transform:none; background:#222;}}
+</style>
+
 </head>
 <body style="background-color:#d6eeeb;">
-<div class="snowman" style="background-image:url('../drmr/res/Lyskoelr.png'); background-size:cover;"> 
+<div class="snowman" style="background-image:url('../drmr/res/Lyskoelr.png'); background-size:cover;">
  <div class="snowman-btn">
-  <button class="btn-flat" disabled="disabled"><strong>ФОРУМ СОЗДАЁТСЯ</strong></button><br />
-  <a class="btn susi" id="snowman" href="https://sntmechta.github.io">На Главную</a>
+  <div class="firkantheimr">
+<div class="firkantr"></div>
+<div class="firkantr"></div>
+<div class="firkantr"></div>
+
+<div class="firkantr"></div>
+<div class="firkantr"></div>
+<div class="firkantr"></div>
+
+<div class="firkantr"></div>
+<div class="firkantr"></div>
+<div class="firkantr"></div>
+  </div>
+   <button class="btn-flat" disabled="disabled"><strong>ФОРУМ СОЗДАЁТСЯ</strong></button><br />
+ <div class="firkantheimr">
+<div class="firkantr"></div>
+<div class="firkantr"></div>
+<div class="firkantr"></div>
+
+<div class="firkantr"></div>
+<div class="firkantr"></div>
+<div class="firkantr"></div>
+
+<div class="firkantr"></div>
+<div class="firkantr"></div>
+<div class="firkantr"></div>
+ </div>
+   <a class="btn susi" id="snowman" href="https://sntmechta.github.io">На Главную</a>
  </div>
 </div>
 </body>
